@@ -27,8 +27,8 @@ int main(){
 				cout<<"Kamis";
 				else if (sisa == 4)
 					cout<<"Jumat";
-						else if(sisa==5)
-							cout<<"Sabtu";
-							else if(sisa==6)
-								cout<<"Minggu";
+					else if(sisa==5)
+						cout<<"Sabtu";
+						else if(sisa==6)
+							cout<<"Minggu";
 }
