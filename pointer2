@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+using namespace std;
+int main(){
+	int a=5;float b=7.5;double c=17.777;
+	system("cls");
+	cout<<"isi variabel : "<<endl;
+	cout<<"a = "<<a<<endl;
+	cout<<"b = "<<b<<endl;
+	cout<<"c = "<< b<<endl;
+	cout<<"Alamat variabel : "<<endl;
+	cout<<"a = "<<&a<<endl;
+	cout<<"b = "<<&b<<endl;
+	cout<<"c = "<<&c<<endl;
+}
