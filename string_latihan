@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main(){
+	char n[35];char pn[10];char nn[35];char i[]="Indonesia";
+	cout<<"Nama : ";cin.getline(n, sizeof(35));cout<<"\n";
+	cout<<"Nama panggilan : ";cin.getline(pn, 10);
+	cout<<"Nama saya adalah : ";cout<<n<<"\n";
+	cout<<"Jumlah karakter nama saya adalah : "<<strlen(n)<<"\n";
+	cout<<"Nama panggilan saya adalah : "<<pn<<"\n";
+	cout<<"Tulis nama saya lagi : "<<strcpy(nn, n)<<"\n";
+	int hasil=strcmp(n, i);
+	if(hasil==0)
+		cout<<"Oke!";
+	else if(hasil>0)
+		cout<<"Baiklah!";
+	else
+		cout<<"Iyalah!";
+}
